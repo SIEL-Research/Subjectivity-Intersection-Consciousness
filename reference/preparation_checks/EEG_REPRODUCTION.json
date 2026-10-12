@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "checks": {
+    "matched_scores": {
+      "rows": 26,
+      "maximum_absolute_error": 3.552713678800501e-15,
+      "tolerance": 1e-12
+    },
+    "p1_source_scores": {
+      "rows": 26,
+      "maximum_absolute_error": 3.552713678800501e-15,
+      "tolerance": 1e-12
+    },
+    "P1_null": {
+      "rows": 2000,
+      "maximum_absolute_error": 7.105427357601002e-15,
+      "tolerance": 1e-12
+    },
+    "participant_calibration": {
+      "rows": 26,
+      "maximum_absolute_error": 1.1102230246251565e-16,
+      "tolerance": 1e-12
+    },
+    "cyclic_shifts": {
+      "rows": 676,
+      "maximum_absolute_error": 1.4210854715202004e-14,
+      "tolerance": 1e-12
+    },
+    "random_kernels": {
+      "rows": 26000,
+      "maximum_absolute_error": 3.552713678800501e-15,
+      "tolerance": 1e-12
+    }
+  },
+  "P1_permutation_p": {
+    "topology_unique": 0.0069965017491254375,
+    "laplacian_unique": 0.02048975512243878,
+    "joint_min": 0.0004997501249375312
+  },
+  "positive_counts": {
+    "topology": 26,
+    "both": 23
+  },
+  "scope": "Recomputes existing endpoints; calibration uses retained historical nulls; full mode recomputes responses to all 1000 retained kernel ensembles. No independent E2 or independent-data replication is claimed."
+}

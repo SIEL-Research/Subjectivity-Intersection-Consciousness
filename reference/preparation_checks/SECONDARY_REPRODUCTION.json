@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "checks": {
+    "H1_source_profile": {
+      "rows": 26,
+      "maximum_absolute_error": 2.2010171463193728e-13,
+      "tolerance": 1e-12
+    },
+    "phase_axes": {
+      "rows": 624,
+      "maximum_absolute_error": 1.3322676295501878e-15,
+      "tolerance": 1e-12
+    },
+    "all_phase_source_scores": {
+      "rows": 624,
+      "maximum_absolute_error": 1.511013536514838e-12,
+      "tolerance": 1e-10
+    },
+    "Heart_Mind_Body_band_groups": {
+      "rows": 25,
+      "maximum_absolute_error": 9.020562075079397e-17,
+      "tolerance": 1e-12
+    },
+    "ordered_update_Beta": {
+      "rows": 26,
+      "maximum_absolute_error": 9.71445146547012e-17,
+      "tolerance": 1e-12
+    },
+    "source_light_time_space": {
+      "rows": 78,
+      "maximum_absolute_error": 9.8879238130678e-17,
+      "tolerance": 1e-12
+    },
+    "source_band_donor_scores": {
+      "rows": 2028,
+      "maximum_absolute_error": 9.996344030316351e-17,
+      "tolerance": 1e-12
+    }
+  },
+  "retained_null_calibration": {
+    "H1_exact_order_p": 0.03888888888888889,
+    "band_group_max_p": {
+      "Heart": 0.0004997501249375312,
+      "Mind": 0.0004997501249375312,
+      "Body": 0.0004997501249375312
+    },
+    "Beta_five_band_max_p": 0.012898710128987101,
+    "P1_light_participant_adjusted_p": 0.011988011988011988,
+    "P1_post_uncorrected_p": 0.036192761447710456
+  },
+  "scope": "Original numerical functions applied to retained or hash-verified raw-derived feature arrays; p-values recomputed from retained null rows, not newly generated nulls. No new scientific outcomes or independent E2 certification."
+}

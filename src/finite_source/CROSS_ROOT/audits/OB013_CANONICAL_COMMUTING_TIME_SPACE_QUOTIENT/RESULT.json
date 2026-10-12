@@ -1,0 +1,129 @@
+{
+  "series": "OB",
+  "unit_id": "OB013",
+  "governance_class": "DPA_THEORETICAL_BRANCH_STUDY_NOT_RPD_EXPERIMENT_ID",
+  "classification": "Theoretical derivation; exact canonical central quotient and commuting clock-product construction",
+  "status": "CANONICAL_CENTRAL_EXACT_SEQUENCE_Z2_TO_Z2_CUBED_TO_V4_PASS__UNIQUE_SURJECTIVE_BRAID_Z_CLOCK_PARITY_COVER_OF_KERNEL_PASS__MISMATCH_DESCENDS_FAITHFULLY_TO_THREE_DIRECTION_SPACE_QUOTIENT__TIME_AND_SPACE_ACTIONS_COMMUTE_EXACTLY__FOUR_FORMER_TIME_CHARACTERS_EQUAL_FOUR_NONCANONICAL_SECTIONS__SECTION_FREE_Z_TIMES_V4_PRODUCT_PASS__FINITE_ONE_PLUS_THREE_KINEMATIC_SKELETON_PASS__CONTINUUM_H_STONE_AND_PHYSICAL_TIME_ARROW_OPEN",
+  "exact_results": {
+    "source_group_order": 8,
+    "source_group": "Z2 cubed",
+    "mismatch_kernel": [
+      0,
+      5
+    ],
+    "kernel_order": 2,
+    "kernel_generator": 5,
+    "kernel_unique_from_source_mismatch": true,
+    "kernel_is_central": true,
+    "space_quotient_classes": [
+      [
+        0,
+        5
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        16,
+        21
+      ],
+      [
+        24,
+        29
+      ]
+    ],
+    "space_quotient_order": 4,
+    "space_quotient_type": "V4",
+    "space_nonidentity_direction_count": 3,
+    "quotient_multiplication_well_defined_independent_of_representatives": true,
+    "descended_mismatch_representation_well_defined": true,
+    "descended_mismatch_representation_faithful": true,
+    "central_exact_sequence": "0 -> Z2(kernel) -> Z2^3 -> V4(space quotient) -> 0",
+    "homomorphic_sections_Q_to_G": 4,
+    "section_images": [
+      [
+        0,
+        8,
+        16,
+        24
+      ],
+      [
+        0,
+        8,
+        21,
+        29
+      ],
+      [
+        0,
+        13,
+        16,
+        29
+      ],
+      [
+        0,
+        13,
+        21,
+        24
+      ]
+    ],
+    "OB012_four_character_kernels_equal_four_section_images": true,
+    "OB012_stabilizer_transitive_on_sections": true,
+    "canonical_section_exists": false,
+    "section_required_for_quotient_product": false,
+    "homomorphisms_Z_to_kernel": 2,
+    "surjective_homomorphisms_Z_to_kernel": 1,
+    "unique_surjective_cover_formula": "p(n)=0 for even n and p(n)=5 for odd n",
+    "source_equations_force_nontrivial_clock_kernel_coupling": false,
+    "surjective_clock_kernel_coupling_is_explicit_bridge_condition": true,
+    "global_clock_reversal_preserves_kernel_cover": true,
+    "parity_cover_homomorphism_checks": 4257,
+    "fully_marked_kernel_arrows_per_source": 8,
+    "kernel_transition_induced_named_generator_checks": 256,
+    "kernel_transition_unique_on_named_generated_source_presentation": true,
+    "ambient_kernel_arrow_implementation_unique": false,
+    "round_trip_named_generator_checks": 2048,
+    "all_kernel_arrows_commute_with_spatial_mismatch_operators": true,
+    "kernel_arrow_space_commutator_checks": 256,
+    "finite_cyclic_product_elements": 44,
+    "finite_cyclic_product_distinct_elements": 44,
+    "finite_cyclic_product_law_checks": 1936,
+    "time_space_product_commutator_checks": 4,
+    "formal_product_group": "Z times V4",
+    "formal_ell2Z_product_representation": "Pi(n,q)=h_bar(q) tensor S^n",
+    "formal_ell2Z_representation_faithful": true,
+    "faithfulness_reason": "A nonzero n changes the clock basis index; when n=0, faithfulness of h_bar forces q=identity.",
+    "combined_action_is_kinematic_direct_product_not_dynamical_interaction": true,
+    "time_axis_unique_up_to_global_reversal": true,
+    "physical_future_direction_selected": false,
+    "continuous_three_space_derived_from_V4_alone": false,
+    "H_identified_as_Stone_generator_of_word_clock": false
+  },
+  "mathematical_structure": {
+    "canonical_split_without_splitting": "Time is the canonical kernel of the three-site mismatch and space is its canonical quotient. The construction uses the exact sequence itself and never selects a section from Q back into G.",
+    "clock_lift": "Once nontrivial surjective clock-kernel coupling is required, the Braid abelianization Z has exactly one homomorphism to the order-two kernel. Its parity is unchanged by reversing the global clock convention; source equations do not yet force the surjectivity requirement.",
+    "commuting_product": "The faithful quotient mismatch representation and the bilateral clock shift commute, so the universal direct-product action of Z times V4 is exact and faithful.",
+    "section_reclassification": "The four OB012 time-character kernels are exactly the four homomorphic sections of the quotient. Their transitive shear symmetry means they are coordinate embeddings, not four distinct quotient-level time axes."
+  },
+  "interpretation": {
+    "observed_evidence": "One source-generated map simultaneously supplies a unique two-element kernel and a four-element quotient with three nonidentity directions. Conditional on a nontrivial coupling, the Braid-word clock has a unique surjective parity cover of the kernel, and its shift commutes with every quotient-space action.",
+    "pattern": "The no-selector result becomes a coordinate-invariance result: absolute embedding of space back into the eight pre-spacetime sectors is unnecessary, while the time kernel and spatial quotient remain invariant.",
+    "interpretive_leap": "This is a finite mathematical candidate for co-emergent time and space: time records the relation change invisible to spatial mismatch, while space records the three distinguishable mismatch directions, and neither acts as an external background for the other.",
+    "remaining_gap": "The demand that the clock couple surjectively to the kernel remains a bridge condition. V4 is only a finite three-direction skeleton; continuity, distances, physical clock units, H/Stone coupling and the thermodynamic arrow are not supplied."
+  },
+  "counter_intuition": {
+    "tempting_claim": "A canonical Z times V4 action means physical 3+1 spacetime has been derived.",
+    "refutation": "The three spatial elements are finite directions, not R cubed; the Z coordinate is an event count, not measured duration; and the combined action is a kinematic product with no Lorentz dynamics, physical scale or irreversible future direction.",
+    "ordinary_explanation": "Any homomorphism with a two-element kernel and V4 image yields a central exact sequence, and commuting tensor-factor representations yield a direct product. The Braid-specific content is that both factors and their link were recovered from the actual marked source lineage."
+  },
+  "next_exact_target": "OB014: test whether the OB007 tetrahedral completion and Lorentz conformal form descend functorially from the canonical V4 quotient while the OB005 Z clock supplies the unique commuting time factor, without reintroducing any of the four sections. Require section-independence of the completed 1+3 action; preserve physical scale, H/Stone and time-arrow boundaries.",
+  "claim_ceiling": "Exact finite source-native central kernel and three-direction quotient construction, plus the unique surjective Braid-clock parity cover conditional on nontrivial clock-kernel coupling and a faithful commuting Z times V4 action. Not a proof that source equations force that coupling, continuous R1,3 spacetime, physical time, physical arrow, H/Stone identification, Lorentz dynamics, GR, natural evidence, ontology, subjectivity or consciousness.",
+  "input_hashes": {
+    "audits/OB005_ABELIANIZATION_MARKED_SHIFT_LIFT/RESULT.json": "f2581dad6193cfbef18140cd29e952d699a6dad33a116d632a48ab4d43041575",
+    "audits/OB007_TETRAHEDRAL_OBSERVER_COMPLETION/RESULT.json": "be03a4e2a5072695eba76a1d745f27cbf480466ef0964fe1218ecd52477048a4",
+    "audits/OB011_FULL_EIGHT_SECTOR_TIME_PARITY_CLOCK_ACTION/RESULT.json": "eff782dc9beb44f794363a498640e904ad54d0fd94161f67e7f8d3db0802d866",
+    "audits/OB012_UNIQUE_TIME_CHARACTER_SELECTION_FAIL_FAST/RESULT.json": "d92b0b8eff2104d34cce134c95ebfa9c4cc42f093ded0d058a22b623f118866e",
+    "audits/UB443_TYPED_SIGNED_SURVIVOR_GAUGE_OR_OBSERVABLE_GATE/evaluate.py": "ad53908146ba65d9de71994c0b297fac759a05c4938378f6cc962bbf9eae8c9e",
+    "audits/UB443_TYPED_SIGNED_SURVIVOR_GAUGE_OR_OBSERVABLE_GATE/RESULT.json": "2ddc8c9e9352e2c082643bbe10a8ab18ab4a9a2f57b45fd2db9763a5f35aaf10"
+  }
+}

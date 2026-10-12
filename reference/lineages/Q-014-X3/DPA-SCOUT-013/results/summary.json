@@ -1,0 +1,135 @@
+{
+  "assignment_rank_of_30": 4,
+  "axis_group_ranks": {
+    "Body": 1,
+    "Heart": 1,
+    "Mind": 3
+  },
+  "axis_max_family_permutation_p": {
+    "Body": 0.0004997501249375312,
+    "Heart": 0.0004997501249375312,
+    "Mind": 0.0004997501249375312
+  },
+  "claim_ceiling": "Same-archive EEG-only result-informed exploratory feature/band correspondence; no subjective contents, Braid, light/time/space, causality, consciousness, confirmation or independent replication.",
+  "decision": "NO_GO_EEG_THREE_BAND_GROUPS_ON_FIXED_ENDPOINT",
+  "evidence_status": "Exploratory result",
+  "fixed_joint_min": 0.05602727989214846,
+  "fixed_mapping": {
+    "Body": "Alpha+Gamma",
+    "Heart": "Delta+Theta",
+    "Mind": "Beta"
+  },
+  "fixed_population_scores": {
+    "Body": 0.1091788924689378,
+    "Heart": 0.06885688501921292,
+    "Mind": 0.05602727989214846
+  },
+  "gates": {
+    "A_all_positive": true,
+    "B_all_axis_rank1_and_assignment_rank1": false,
+    "C_axis_and_joint_permutation": true,
+    "D_all_halves_positive": true,
+    "E_all_bootstrap_lower_positive": true,
+    "F_provenance_non_degeneracy_retention": true
+  },
+  "half_scores": {
+    "first": {
+      "Body": 0.11682386892185044,
+      "Heart": 0.05800319495088847,
+      "Mind": 0.025960757590948253
+    },
+    "second": {
+      "Body": 0.06096877001689911,
+      "Heart": 0.05136824311931558,
+      "Mind": 0.08096792062543635
+    }
+  },
+  "input_hashes": {
+    "band_table": "b012c0d63708389b4242a1f659300303dba8b5cb548571caccc978ea7ceb3ea0",
+    "baseline": "949440d9ed8987c33fbc525c1a68c3bda705c0024fc6543107eb426ef98dc3b1",
+    "raw_eeg": {
+      "P10_EPOCX_354842_2026.01.31T22.09.50+09.00.csv": "611891c1d946829913919aedc579f39b7e48c53d6a62ad1961fde153ad58f625",
+      "P11_EPOCX_354842_2026.01.31T22.36.52+09.00.csv": "3774c3f38ef7989e44edc94a3c46992d997bb1bff81f5e4c556086de04eac444",
+      "P12_EPOCX_354842_2026.01.31T23.26.29+09.00.csv": "fccbe8a86c2d6903f3106bd33075ab9ef520b035488313b5c3e2c9b53275c48a",
+      "P13_EPOCX_354842_2026.01.31T23.11.14+09.00.csv": "9813a352422190eff1a5476f14aedb119300bdd35a0c1c536de04db5ac9322c5",
+      "P14_EPOCX_354842_2026.01.31T23.42.51+09.00.csv": "d4b2cab2fb72687da26fe1095003ab74edbaba299e7922f72f68ba8c1f904223",
+      "P15_EPOCX_354842_2026.01.31T23.54.04+09.00.csv": "33b65304bd2ee93770a50364622578ead3062242cb5788c241e47b1246bf14a9",
+      "P16_EPOCX_354842_2026.02.01T00.03.20+09.00.csv": "91a40ca4ab3593714d2b965daa09b1ff6b1224f73e45ed01803d211debcfbc95",
+      "P17_EPOCX_354842_2026.02.01T00.19.34+09.00.csv": "00b8d1784f0288bc5fe429c941e0a7e06d9a88d89896bd39ff8077bc4b9708b0",
+      "P18_EPOCX_354842_2026.02.01T00.44.23+09.00.csv": "71610347d64f409353152a6b3e70b0d9d113e9354df4a37934bebdc555cdfb08",
+      "P19_EPOCX_354842_2026.02.01T15.39.55+09.00.csv": "e0c39807abf8e099211f04ba9f6ae277c24d264e6d840cd3e64d68cde649303e",
+      "P1_EPOCX_354842_2025.12.22T08.01.58+09.00.csv": "2988fb248cf68a7d104b18e81ab1b937cc59b07866ce5f386d5002d206c5d671",
+      "P20_EPOCX_354842_2026.02.01T15.50.36+09.00.csv": "9ddc536f0c56a0cc159fa8060191374303ec73865b8b6e48630d634dbe906cbf",
+      "P21_EPOCX_354842_2026.01.31T19.25.34+09.00.csv": "ad928c38f4ce88edf9b042c64bf1f063bd35cca5bd154b5d59476fe3289465cc",
+      "P22_EPOCX_354842_2026.02.01T00.33.37+09.00.csv": "5b98f2a364fe4c822b8dea8bc3a64ca68d57897866616744a2b63dfa237b673d",
+      "P23_EPOCX_354842_2026.02.01T18.37.45+09.00.csv": "c1d0e72c7be008318502a38ede0c1922cc7e23a065c01aaa3e73ee9586c34339",
+      "P24_EPOCX_354842_2026.02.01T18.47.46+09.00.csv": "0caec6752f2b90d84523846a6baebd187cfec495a1134c9e92cc7959076225af",
+      "P25_EPOCX_354842_2026.02.01T18.57.45+09.00.csv": "aba2b18d9c147647abac8cfb1203e7be5ac8a34f6bf7cc395a60a3816c5fcee9",
+      "P26_EPOCX_354842_2026.02.01T19.08.50+09.00.csv": "85fad8c075f45fcc3c747904780a9524d1034e2dfec1401d78dfaaf74aa9ed79",
+      "P2_EPOCX_354842_2025.12.26T00.24.37+09.00.csv": "6323d8d73cd914669dac13d4a3bb1346c688ccec79b3ef8b97ec1163ae9bdb1b",
+      "P3_EPOCX_354842_2026.01.02T11.33.41+09.00.csv": "3f16655f5037ed79ef09f33881263cd7ff77d286edf92c5bd7520f0922255f54",
+      "P4_EPOCX_354842_2026.01.03T19.00.25+09.00.csv": "e654c4e1db0cca1358cbc9fbe65660bc5c852de67638ba1da487472d8bb2f576",
+      "P5_EPOCX_354842_2025.12.25T20.29.51+09.00.csv": "4d851c06c5b93c77251e0dae83409d8b6c108080b71e44d7d7970a6d3db0d10a",
+      "P6_EPOCX_354842_2026.01.04T18.21.01+09.00.csv": "1fb372f30ddd20529f20b31448f820940d317a63f506a4fa2c2bf9789586730f",
+      "P7_EPOCX_354842_2026.01.31T19.04.46+09.00.csv": "799af1602ba57363f1a7aa4940dacc5915716bf9435216cda9ec86bfd86819dd",
+      "P8_EPOCX_354842_2026.01.31T19.39.04+09.00.csv": "bda1c52eb4ccde0c837e9f8a5f9ea120eecc34ec35c86f616d591b8cf4f84a96",
+      "P9_EPOCX_354842_2026.01.31T19.53.22+09.00.csv": "a2e672a1bb306291d135b37a87059ac747355f391db0a35bbe5a12e30e5962ed"
+    },
+    "task_table": "fe23efab633a31046c9b9c25a9f2ef02133d8c0f702c2db35968f478cc74e698",
+    "task_windows": {
+      "P10_eeg_timeseries.csv": "6176234bce55f886c1d0fbab44eb1f15a73295fb2d53396447d7309cd8be8a4a",
+      "P11_eeg_timeseries.csv": "e80c0be54243a7677976c9179b12120b7747bed0329c9ca0b408d30bc534e901",
+      "P12_eeg_timeseries.csv": "8e92df2aa7d18f1b0be83da4d48af6b92443ac9e04cc269fc7cea8fc44104aee",
+      "P13_eeg_timeseries.csv": "d7647456b43b5dce55647074c1731a380f842e4e59c108e494eb9f68a77170a4",
+      "P14_eeg_timeseries.csv": "d1bac1c0a7500ed9b69fc0155b0a2584d4fa74cc508c4f7734ee1f88005daf6f",
+      "P15_eeg_timeseries.csv": "cc040958a47c0fcb3676ef524fa95122ea4661fdf1410585057dece0cff1f373",
+      "P16_eeg_timeseries.csv": "d6aeffacf2572e7a789c3087f4053acf9d523bf3e36a571275096be40c98dc17",
+      "P17_eeg_timeseries.csv": "f43587210ca00693c7f91bbf1c4372591794d802ae9161e97a6a0a1e6ea59f33",
+      "P18_eeg_timeseries.csv": "6a6d41202d70322ed518a2f6cd7510e9f1e21e87a90d17d38ed56b3f34c7424f",
+      "P19_eeg_timeseries.csv": "96c3e1b1f720a495243f82d1752d209a4e69cd229965182f64e5b5798aef2d70",
+      "P1_eeg_timeseries.csv": "5cda355f5f2e685f023042526914ef9928a7cee84e61090afb3a05f383fb2724",
+      "P20_eeg_timeseries.csv": "d7ac381358724baee32b60ae66cb8c58ce8eda5f6ac451f54e17c120d1cd902c",
+      "P21_eeg_timeseries.csv": "baacbfcfa3d78a2e6f04cb17601e35213951701f4c45145e324984c0a1466017",
+      "P22_eeg_timeseries.csv": "be0350da852c1a6965f9e415ada671904ca66b909ada30d88838eee1e6dfd818",
+      "P23_eeg_timeseries.csv": "ac397c66e96ae76163fcd149fda26fe1d7370881462a95d629567ba8c21b2d54",
+      "P24_eeg_timeseries.csv": "0f10aa0f699ce1fb1de399e5f7b95c4367d925a565ea365f827dcb9a83799a75",
+      "P25_eeg_timeseries.csv": "becbe758ac26514f3e30f97b0dd6e25e3f3abc13cd4255a388bc3de108cb90d5",
+      "P26_eeg_timeseries.csv": "2e3a8001078ae656154658d00b3d573efe3a9c8a0ad5b1c1f45e1a21c1ce10e3",
+      "P2_eeg_timeseries.csv": "ef17ec5d06413888cfd363ea2cd9adadeda3e5e07c991a89790c06fe0ed9147a",
+      "P3_eeg_timeseries.csv": "e4cc398841938d6471251c8fbd9c33f397cad060f1ac237a048c3b35205effc2",
+      "P4_eeg_timeseries.csv": "250b7a35b690f32fa23362427ff81925d463c0d43ac228364f18f79ab71892ec",
+      "P5_eeg_timeseries.csv": "883c17da60d07f920094ea2d16506659b512efacd1a12ddae1a0d2333242ad25",
+      "P6_eeg_timeseries.csv": "9c19104e50065995746c89633ba746afce7ca8698316a62eba82eb7b6d16a97f",
+      "P7_eeg_timeseries.csv": "cb5510d95f340b6bdf8cd04a4f4fe94a2a97ffdbb9f90b73e42a31eebbed7e09",
+      "P8_eeg_timeseries.csv": "4908257ab52be8cc559fddf7bdb124b6575596ea65ec74cb1273d5b121b42232",
+      "P9_eeg_timeseries.csv": "d5d6f15480b0fb1e0ab1690f6cf4218ece6607554138bf60f9d15f880831bec3"
+    }
+  },
+  "joint_assignment_max_permutation_p": 0.0004997501249375312,
+  "n_bootstrap": 50000,
+  "n_permutations": 2000,
+  "participant_bootstrap_ci": {
+    "Body": [
+      0.06906818250385505,
+      0.10851120801874073,
+      0.1535012981531818
+    ],
+    "Heart": [
+      0.035208524090719076,
+      0.06877162403310057,
+      0.10423062975078738
+    ],
+    "Mind": [
+      0.012301647912411973,
+      0.05544485342248455,
+      0.10421745388682846
+    ],
+    "joint_min": [
+      0.01212175835033372,
+      0.05194533920728976,
+      0.08761603950950332
+    ]
+  },
+  "scout_id": "DPA-SCOUT-013",
+  "seed": 20261003
+}

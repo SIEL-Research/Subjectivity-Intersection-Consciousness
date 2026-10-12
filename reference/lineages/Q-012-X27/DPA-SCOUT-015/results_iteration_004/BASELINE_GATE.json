@@ -1,0 +1,38 @@
+{
+  "exact_columns": {
+    "h1_count": true,
+    "h1_zero": true,
+    "n_valid_channels": true
+  },
+  "max_absolute_differences": {
+    "aspl": 4.440892098500626e-16,
+    "h1_max_persistence": 9.71445146547012e-17,
+    "h1_total_persistence": 1.1102230246251565e-16,
+    "lambda2": 1.7763568394002505e-15
+  },
+  "nan_patterns": {
+    "aspl": true,
+    "h1_max_persistence": true,
+    "h1_total_persistence": true,
+    "lambda2": true
+  },
+  "prior_endpoint": {
+    "P1": {
+      "best_false_score": 1.0330309239359166,
+      "best_false_source": "P7",
+      "margin": -0.15071426499660534,
+      "rank": 2,
+      "score": 0.8823166589393112
+    },
+    "P21": {
+      "best_false_score": 1.5087483735333536,
+      "best_false_source": "P15",
+      "margin": 0.2222544557318329,
+      "rank": 1,
+      "score": 1.7310028292651864
+    },
+    "status": "PASS"
+  },
+  "status": "PASS",
+  "task_identity": true
+}

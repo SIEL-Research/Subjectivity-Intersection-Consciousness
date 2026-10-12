@@ -1,0 +1,96 @@
+{
+  "experiment_id": "Q-012-X12-X1",
+  "evidence_status": "Exploratory result",
+  "independent_E2": "NOT_PERFORMED",
+  "READY": false,
+  "original_counts": {
+    "topology_positive": 26,
+    "both_positive": 23
+  },
+  "participant_permutation": {
+    "p_joint_le05": [
+      "P1"
+    ],
+    "q_joint_le05": [
+      "P1"
+    ],
+    "p_two_view_IUT_le05": [
+      "P1"
+    ],
+    "q_two_view_IUT_le05": [],
+    "mean_null_positive_topology_fraction": 0.9465769230769231,
+    "mean_null_positive_both_fraction": 0.7905961538461538,
+    "P1": {
+      "label": "P1",
+      "observed_topology": 0.20051441840524342,
+      "observed_laplacian": 0.13899063136511777,
+      "observed_joint": 0.13899063136511777,
+      "null_positive_topology_fraction": 0.7545,
+      "null_positive_both_fraction": 0.322,
+      "p_topology_unique": 0.0069965017491254375,
+      "null_mean_topology_unique": 0.035542432727004976,
+      "null_sd_topology_unique": 0.052805606195359504,
+      "null_q95_topology_unique": 0.1317720600485078,
+      "p_laplacian_unique": 0.02048975512243878,
+      "null_mean_laplacian_unique": 0.008955407595883888,
+      "null_sd_laplacian_unique": 0.054355824136390105,
+      "null_q95_laplacian_unique": 0.10522767705662074,
+      "p_joint_min": 0.0004997501249375312,
+      "null_mean_joint_min": -0.016938731180533247,
+      "null_sd_joint_min": 0.03412487614133501,
+      "null_q95_joint_min": 0.02865223832103859,
+      "p_two_view_IUT": 0.02048975512243878,
+      "q_topology_unique": 0.1819090454772614,
+      "q_laplacian_unique": 0.13318340829585207,
+      "q_joint_min": 0.012993503248375811,
+      "q_two_view_IUT": 0.5327336331834083
+    }
+  },
+  "circular_shift": {
+    "p_joint_le05": [
+      "P1"
+    ],
+    "q_joint_le05": [],
+    "P1": {
+      "label": "P1",
+      "p_topology_unique": 0.11538461538461539,
+      "best_nonzero_topology_unique": 0.24272851141620044,
+      "p_laplacian_unique": 0.038461538461538464,
+      "best_nonzero_laplacian_unique": 0.09463208839822816,
+      "p_joint_min": 0.038461538461538464,
+      "best_nonzero_joint_min": 0.03814638654681522,
+      "p_two_view_IUT": 0.11538461538461539,
+      "q_topology_unique": 1.0,
+      "q_laplacian_unique": 0.4,
+      "q_joint_min": 0.7142857142857143,
+      "q_two_view_IUT": 1.0
+    }
+  },
+  "random_kernel": {
+    "n_ensembles": 1000,
+    "observed_mean_joint": 0.04235746496681589,
+    "mean_joint_p": 1.0,
+    "null_mean_joint": 0.08102805230621882,
+    "observed_topology_positive_count": 26,
+    "topology_count_p": 0.8361638361638362,
+    "observed_both_positive_count": 23,
+    "both_count_p": 1.0,
+    "q_joint_le05": [],
+    "P1": {
+      "label": "P1",
+      "p_topology_unique": 0.061938061938061936,
+      "generic_mean_topology_unique": 0.12774245122075503,
+      "p_laplacian_unique": 0.12787212787212787,
+      "generic_mean_laplacian_unique": 0.07401521633655753,
+      "p_joint_min": 0.017982017982017984,
+      "generic_mean_joint_min": 0.06071975223546206,
+      "p_two_view_IUT": 0.12787212787212787,
+      "q_topology_unique": 0.8961038961038961,
+      "q_laplacian_unique": 0.5541125541125541,
+      "q_joint_min": 0.4675324675324676,
+      "q_two_view_IUT": 1.0
+    }
+  },
+  "time_seconds": 3.7266809940338135,
+  "claim_ceiling": "same archive, unchanged endpoint, descriptive null calibration and specificity versus declared comparator; no independent population generalization or physical/phenomenal claims"
+}

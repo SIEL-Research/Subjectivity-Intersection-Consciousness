@@ -1,0 +1,153 @@
+{
+  "schema": "siel-endpoint-provenance-record-v1",
+  "record_id": "JSM-SOURCE-RECORD-READOUT-X1-E0-r1",
+  "experiment_id": "JSM-SOURCE-RECORD-READOUT-X1",
+  "claim_id": "original-record-native-current-capacity",
+  "lifecycle_level": "E0",
+  "governing_subsystem": "JSM local source audit; not a canonical RPD experiment",
+  "source_revision": "269a832e497c901a2b24bb2167ca97b9e6ce2bd1 + c4b0db5fb5e175a1ea0b542e6dc71d41b7dbf551",
+  "preregistration_revision": null,
+  "result_revision": null,
+  "producer_artifact": {
+    "path": "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/run_readout.py",
+    "sha256": "d84d9ab4943540a1f52d15176afeb18a69e925c78cf1b998e319ea5d2055087e",
+    "context_id": "root_jsm_source_readout_r1",
+    "reviewer_id": "JSM_producer_root"
+  },
+  "semantic_audit_artifact": {
+    "path": "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/PRODUCER_E0_PREFLIGHT.md",
+    "sha256": "652b862013b450a9a1c36f7ebfd3f08e520af5f96c394fea7f54304ef2aad3e3",
+    "context_id": "root_jsm_source_readout_r1",
+    "reviewer_id": "JSM_producer_root"
+  },
+  "independence": {
+    "different_context": false,
+    "different_reviewer": false,
+    "statement": "Producer E0 preflight only; authorized independent code/result reviewer is separate and cannot be replaced by this record."
+  },
+  "gates": [
+    {
+      "gate_id": "AFFINE_CAPACITY",
+      "scientific_alternative": "Full mixture contrasts retained versus lost",
+      "code_locator": "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/run_readout.py::capacity",
+      "source_variables": [
+        "four original gradient record output marginals",
+        "fixed native current-orbit observables",
+        "original same-mask squared-overlap matrix"
+      ],
+      "intervention_constructor": "Predetermined valid synthetic purifications with distinct affine response capacity",
+      "comparator_constructor": "Dynamic lower-capacity partial output of a distinct valid four-record purification; not a source-specificity comparator",
+      "expression": "rank(Y L)",
+      "reused_intermediates": [
+        "source-independent observer closure",
+        "forward response coefficients",
+        "unnormalized output marginals"
+      ],
+      "symbolic_relation": "Forward capacity and hidden sensitivity, not success of an inverse calibrated on the same matrix",
+      "degeneracy_class": "NONE_DETECTED",
+      "witnesses": {
+        "positive": {
+          "path": "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/witnesses_r1/positive.json",
+          "sha256": "d1be11ec29e6aafb0fc0dcf98ceddfcb66cff66a668b840b94831b95eacf7d75",
+          "status": "PASS",
+          "target_changed": true,
+          "endpoint_changed": true,
+          "raw_output_path": "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/witnesses_r1/positive.json"
+        },
+        "negative": {
+          "path": "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/witnesses_r1/negative.json",
+          "sha256": "71996afb7413fdb2c52d33374b10dfe79f963461e3ea4045b2627391e08a233c",
+          "status": "PASS",
+          "target_changed": true,
+          "endpoint_changed": true,
+          "raw_output_path": "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/witnesses_r1/negative.json"
+        },
+        "comparator": {
+          "path": "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/witnesses_r1/comparator.json",
+          "sha256": "42035407203523d689fff0cc3d3a5d8fcb8182dfa458427c3b6106d85f4f8016",
+          "status": "PASS",
+          "target_changed": true,
+          "endpoint_changed": true,
+          "raw_output_path": "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/witnesses_r1/comparator.json"
+        }
+      },
+      "evidence_paths": [
+        "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/witnesses_r1/observer.json",
+        "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/PRODUCER_E0_PREFLIGHT.md"
+      ],
+      "permitted_interpretation": "Fixed finite source readability under declared charge/observer assumptions only",
+      "prohibited_interpretations": [
+        "source specificity",
+        "EEG result",
+        "physiological realization",
+        "consciousness",
+        "confirmation of CP-HYP-033",
+        "independent E2 certification"
+      ],
+      "status": "PASS"
+    },
+    {
+      "gate_id": "FINGERPRINT_HIDDEN_SENSITIVITY",
+      "scientific_alternative": "Hidden mixture contrasts preserve versus change original fingerprint",
+      "code_locator": "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/run_readout.py::hidden_actions",
+      "source_variables": [
+        "four original gradient record output marginals",
+        "fixed native current-orbit observables",
+        "original same-mask squared-overlap matrix"
+      ],
+      "intervention_constructor": "Predetermined valid synthetic purifications with distinct affine response capacity",
+      "comparator_constructor": "Dynamic lower-capacity partial output of a distinct valid four-record purification; not a source-specificity comparator",
+      "expression": "for each d in L ker(YL), A_m d=0",
+      "reused_intermediates": [
+        "source-independent observer closure",
+        "forward response coefficients",
+        "unnormalized output marginals"
+      ],
+      "symbolic_relation": "Forward capacity and hidden sensitivity, not success of an inverse calibrated on the same matrix",
+      "degeneracy_class": "NONE_DETECTED",
+      "witnesses": {
+        "positive": {
+          "path": "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/witnesses_r1/positive.json",
+          "sha256": "d1be11ec29e6aafb0fc0dcf98ceddfcb66cff66a668b840b94831b95eacf7d75",
+          "status": "PASS",
+          "target_changed": true,
+          "endpoint_changed": true,
+          "raw_output_path": "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/witnesses_r1/positive.json"
+        },
+        "negative": {
+          "path": "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/witnesses_r1/negative.json",
+          "sha256": "71996afb7413fdb2c52d33374b10dfe79f963461e3ea4045b2627391e08a233c",
+          "status": "PASS",
+          "target_changed": true,
+          "endpoint_changed": true,
+          "raw_output_path": "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/witnesses_r1/negative.json"
+        },
+        "comparator": {
+          "path": "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/witnesses_r1/comparator.json",
+          "sha256": "42035407203523d689fff0cc3d3a5d8fcb8182dfa458427c3b6106d85f4f8016",
+          "status": "PASS",
+          "target_changed": true,
+          "endpoint_changed": true,
+          "raw_output_path": "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/witnesses_r1/comparator.json"
+        }
+      },
+      "evidence_paths": [
+        "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/witnesses_r1/observer.json",
+        "outputs/journal-submission-management/source-record-readout/JSM-SOURCE-RECORD-READOUT-X1/PRODUCER_E0_PREFLIGHT.md"
+      ],
+      "permitted_interpretation": "Fixed finite source readability under declared charge/observer assumptions only",
+      "prohibited_interpretations": [
+        "source specificity",
+        "EEG result",
+        "physiological realization",
+        "consciousness",
+        "confirmation of CP-HYP-033",
+        "independent E2 certification"
+      ],
+      "status": "PASS"
+    }
+  ],
+  "overall_status": "PASS",
+  "created_at": "2026-10-08",
+  "historical": false
+}

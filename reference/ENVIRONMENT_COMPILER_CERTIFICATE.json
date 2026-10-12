@@ -1,0 +1,37 @@
+{
+  "schema": "q014-stinespring-environment-compiler-certificate-v1",
+  "source_commit": "269a832e497c901a2b24bb2167ca97b9e6ce2bd1",
+  "source_path": "projects/active/research_program_director/manual_dpa_intakes/DISC-009/CP-HYP-033-X21R1/RAW_PACKET_OUTPUTS.json",
+  "source_sha256": "7ba1c987a9389f7426becdde136986be7fbc7b17b92dac938cc2a43cc39b373e",
+  "source_masks": [0, 5, 8, 13, 16, 21, 24, 29],
+  "sin_0_05_rational_interval": [
+    "2399/48000",
+    "19192001/384000000"
+  ],
+  "checks": {
+    "source_hash_matches": true,
+    "eight_source_records": true,
+    "eight_distinct_ideal_action_purities_exactly_certified": true,
+    "eight_distinct_symbolic_purity_polynomials": true,
+    "all_ideal_action_purity_gains_positive_exactly_certified": true,
+    "common_signed_stabilizer_is_plus_minus_identity": true,
+    "common_joint_binary_pair_count_zero": true
+  },
+  "common_signed_stabilizer_size": 2,
+  "common_joint_binary_pair_count": 0,
+  "minimum_ideal_action_purity_separation_numeric": 0.000023993148838052925,
+  "ideal_action_purity_by_mask_numeric": {
+    "0": 0.2869740082380985,
+    "5": 0.2850206342179648,
+    "8": 0.28490856750187765,
+    "13": 0.2850532580062313,
+    "16": 0.284849046293774,
+    "21": 0.28499664106912675,
+    "24": 0.2870579425716899,
+    "29": 0.2853229952102419
+  },
+  "decision": "PHASE_ROBUST_STINESPRING_ENVIRONMENT_COMPILER_EXISTS",
+  "reproduction": "python3 projects/active/q014_three_conditioning_consciousness/verify_stinespring_environment_compiler.py",
+  "note": "The reproduction command prints the complete exact rational purity and gain polynomials. Numeric values in this compact certificate are display values only; the distinctness and positivity decisions use exact rational interval arithmetic.",
+  "claim_ceiling": "Exact source-side compiler certificate only; no external Ankaa-3 realization, mask selection in nature, EEG readout, gravity, subjectivity, or consciousness claim."
+}

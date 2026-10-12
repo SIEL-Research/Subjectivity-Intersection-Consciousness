@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "all_eight_sources_rebuilt": true,
+  "exact_comparison": [
+    "beta_block",
+    "Y",
+    "J",
+    "A_m",
+    "block_traces",
+    "affine_rank_exact"
+  ]
+}

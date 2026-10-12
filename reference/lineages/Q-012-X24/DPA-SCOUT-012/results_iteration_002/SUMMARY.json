@@ -1,0 +1,42 @@
+{
+  "braid": {
+    "best_false_score": 0.7953258538533011,
+    "best_false_source": "P25",
+    "exact_permutation_p": 0.03888888888888889,
+    "gate_minus_nongate": 0.5932338698501878,
+    "margin": 0.10416416082272084,
+    "nongate_score": 0.30625614482583413,
+    "nongate_unique_fraction_after_controls": 0.538737287815708,
+    "rank": 1,
+    "score": 0.899490014676022,
+    "unique_fraction_after_controls": 0.46510078974558533
+  },
+  "checks": {
+    "P1_false_margin_positive": true,
+    "P1_score_positive": true,
+    "P1_source_rank_1": true,
+    "braid_margin_gt_general_margin": true,
+    "dominant_pair_inverse_polarity": true,
+    "exact_permutation_p_le_0_05": true,
+    "gate_score_gt_nongate": true,
+    "jackknife_positive_at_least_5_of_7": true
+  },
+  "claim_ceiling": "Same-archive result-informed signed global Braid coherence relation to P1 H1-zero-gated 14ch integration direction only; no physical mask, generator transition, causal transfer, HMB, consciousness, or confirmation.",
+  "decision": "SCOPED EXPLORATORY PASS",
+  "dominant_pair": {
+    "delta_coherence_mean_13_minus_1": -0.013860853749732616,
+    "delta_select_axis_13_minus_1": 3.8316041057691974
+  },
+  "evidence_class": "Exploratory result",
+  "general_competitor": {
+    "best_false_score": 0.8793746853052576,
+    "best_false_source": "P22",
+    "margin": -0.7787408611378619,
+    "rank": 12,
+    "score": 0.10063382416739575
+  },
+  "jackknife_positive_count": 7,
+  "parent": "Q-012-X24",
+  "result_informed": true,
+  "scout_id": "DPA-SCOUT-012"
+}

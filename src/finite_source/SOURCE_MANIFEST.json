@@ -1,0 +1,121 @@
+{
+  "repository": "SIEL-Research/SIEL-Research-Agent",
+  "origin": "https://github.com/SIEL-Research/SIEL-Research-Agent.git",
+  "source_revision": "269a832e497c901a2b24bb2167ca97b9e6ce2bd1",
+  "current_head": "97e6936dffb2773d0fdf81351d5cb0908b4ebe03",
+  "current_branch": "DETACHED_USER_WORKTREE_UNMODIFIED",
+  "paths_preserved": true,
+  "split": "NOT_APPLICABLE_EXACT_FINITE_SOURCES",
+  "masks": [
+    0,
+    5,
+    8,
+    13,
+    16,
+    21,
+    24,
+    29
+  ],
+  "entries": [
+    {
+      "relative_path": "audits/DPA_A61_SOURCE_TRANSFER_FIXED_POINT_STATE_GATE_20260915/evaluate.py",
+      "basename": "evaluate.py",
+      "copy_root": "SOURCE_ROOT",
+      "commit": "269a832e497c901a2b24bb2167ca97b9e6ce2bd1",
+      "git_blob": "3238d1489cc5c4924ad397dbab47f2cd3658a2b1",
+      "bytes": 16698,
+      "sha256": "fe45b05d4a7de204075d913301a601bfe8638720041a5877170a7082736b2d5e",
+      "position": 0
+    },
+    {
+      "relative_path": "audits/DPA_A62_PRIMITIVE_FACTOR_STATE_AND_SOURCE_CAYLEY_GATE_20260915/evaluate.py",
+      "basename": "evaluate.py",
+      "copy_root": "SOURCE_ROOT",
+      "commit": "269a832e497c901a2b24bb2167ca97b9e6ce2bd1",
+      "git_blob": "c7486b5bfe3cf859174d8faf604ab481879b5f96",
+      "bytes": 27436,
+      "sha256": "75c603157a5dd9711c595a205634b8b5e21509565a14c29379c6cfa48e35b536",
+      "position": 1
+    },
+    {
+      "relative_path": "audits/DPA_A63_INTRINSIC_SPECTRAL_TRANSFER_GENERATOR_WARD_GATE_20260915/evaluate.py",
+      "basename": "evaluate.py",
+      "copy_root": "SOURCE_ROOT",
+      "commit": "269a832e497c901a2b24bb2167ca97b9e6ce2bd1",
+      "git_blob": "7e1c7b9422cdfa4491aff0599e9d446ff2cb8fb9",
+      "bytes": 33794,
+      "sha256": "87802c589215758123403df218f5afb98875e1e51e771fb33a116957e9305efa",
+      "position": 2
+    },
+    {
+      "relative_path": "audits/UB442_PROSPECTIVE_SIGNED_BRAID_TEHC_GENERALIZATION_GATE/SIGNED_BRAID_TEHC_CERTIFICATE.json",
+      "basename": "SIGNED_BRAID_TEHC_CERTIFICATE.json",
+      "copy_root": "SOURCE_ROOT",
+      "commit": "269a832e497c901a2b24bb2167ca97b9e6ce2bd1",
+      "git_blob": "07de80ed81d04e8da4883bbbe5cde9eea1859c2a",
+      "bytes": 21864,
+      "sha256": "2eb6ca1d8c7ebb7b6eda41932b95c9822283f29d8bffc5bf5c75c69f7346b7e0",
+      "position": 3
+    },
+    {
+      "relative_path": "projects/active/discovery_partner/formal_checks/ocbfh014_source_native_refinement_naturality_check.py",
+      "basename": "ocbfh014_source_native_refinement_naturality_check.py",
+      "copy_root": "SOURCE_ROOT",
+      "commit": "269a832e497c901a2b24bb2167ca97b9e6ce2bd1",
+      "git_blob": "999c1778cb34f57740ffc426032024e1e661062d",
+      "bytes": 24728,
+      "sha256": "176c75ac349f0f3f142d9c850ca0682436b7ad00cd179f6806de253d0a7acabb",
+      "position": 4
+    },
+    {
+      "relative_path": "projects/active/research_program_director/manual_dpa_intakes/DISC-009/CP-HYP-033-X21R1/RAW_PACKET_OUTPUTS.json",
+      "basename": "RAW_PACKET_OUTPUTS.json",
+      "copy_root": "SOURCE_ROOT",
+      "commit": "269a832e497c901a2b24bb2167ca97b9e6ce2bd1",
+      "git_blob": "b80d2c98d126546f885c2cd23f8a8526d2a62afe",
+      "bytes": 33838,
+      "sha256": "7ba1c987a9389f7426becdde136986be7fbc7b17b92dac938cc2a43cc39b373e",
+      "position": 5
+    },
+    {
+      "relative_path": "projects/active/research_program_director/manual_dpa_intakes/DISC-009/CP-HYP-033-X21R1/charzero_core.py",
+      "basename": "charzero_core.py",
+      "copy_root": "SOURCE_ROOT",
+      "commit": "269a832e497c901a2b24bb2167ca97b9e6ce2bd1",
+      "git_blob": "2664caf6dae854443bd77afde7201a43e3a818d0",
+      "bytes": 2258,
+      "sha256": "fc2246aedf421d96c0aab83125242902dfcb9dd5ef7821bbf9c71867a46cc5ee",
+      "position": 6
+    },
+    {
+      "relative_path": "projects/active/research_program_director/manual_dpa_intakes/DISC-009/CP-HYP-033-X21R1/run_x21r1.py",
+      "basename": "run_x21r1.py",
+      "copy_root": "SOURCE_ROOT",
+      "commit": "269a832e497c901a2b24bb2167ca97b9e6ce2bd1",
+      "git_blob": "62aaf1893b64e8a33c75ad67a8a97f50ba839a80",
+      "bytes": 17270,
+      "sha256": "b6beb4e33956359271ebc3269ade93a466d85b90c737a09bb6c6e094b4968a20",
+      "position": 7
+    },
+    {
+      "relative_path": "audits/OB011_FULL_EIGHT_SECTOR_TIME_PARITY_CLOCK_ACTION/RESULT.json",
+      "basename": "RESULT.json",
+      "copy_root": "CROSS_ROOT",
+      "commit": "c4b0db5fb5e175a1ea0b542e6dc71d41b7dbf551",
+      "git_blob": "53566b7a24b30b56f707b4275ec23f0e88ab0151",
+      "bytes": 30149,
+      "sha256": "eff782dc9beb44f794363a498640e904ad54d0fd94161f67e7f8d3db0802d866",
+      "position": 8
+    },
+    {
+      "relative_path": "audits/OB013_CANONICAL_COMMUTING_TIME_SPACE_QUOTIENT/RESULT.json",
+      "basename": "RESULT.json",
+      "copy_root": "CROSS_ROOT",
+      "commit": "c4b0db5fb5e175a1ea0b542e6dc71d41b7dbf551",
+      "git_blob": "361b6507be14052f86ee83912854d18a05b048c2",
+      "bytes": 8224,
+      "sha256": "fd320520fc301ed7c26a8626f226312e6d3d0999097f326f01d424c54922984e",
+      "position": 9
+    }
+  ]
+}

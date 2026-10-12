@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the associated paper and the exact repository commit used."
+title: "The World Begins with Subjectivity Intersection: From Braid Quantum Gravity to Embodied Experience — Reproduction Materials"
+type: software
+version: "1.0.0"
+authors:
+  - family-names: Watanabe
+    given-names: Satoru
+    affiliation: Subjectivity Intersection Emergence Lab (SIEL)
+license: CC-BY-4.0
+preferred-citation:
+  type: article
+  title: "The World Begins with Subjectivity Intersection: From Braid Quantum Gravity to Embodied Experience"
+  authors:
+    - family-names: Watanabe
+      given-names: Satoru
+  year: 2026
+  doi: 10.5281/zenodo.23284178

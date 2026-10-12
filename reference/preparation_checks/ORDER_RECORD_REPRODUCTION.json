@@ -1,0 +1,417 @@
+{
+  "status": "PASS",
+  "directed_edges": [
+    {
+      "from": 0,
+      "to": 5,
+      "direction": 5
+    },
+    {
+      "from": 0,
+      "to": 8,
+      "direction": 8
+    },
+    {
+      "from": 0,
+      "to": 16,
+      "direction": 16
+    },
+    {
+      "from": 5,
+      "to": 0,
+      "direction": 5
+    },
+    {
+      "from": 5,
+      "to": 13,
+      "direction": 8
+    },
+    {
+      "from": 5,
+      "to": 21,
+      "direction": 16
+    },
+    {
+      "from": 8,
+      "to": 13,
+      "direction": 5
+    },
+    {
+      "from": 8,
+      "to": 0,
+      "direction": 8
+    },
+    {
+      "from": 8,
+      "to": 24,
+      "direction": 16
+    },
+    {
+      "from": 13,
+      "to": 8,
+      "direction": 5
+    },
+    {
+      "from": 13,
+      "to": 5,
+      "direction": 8
+    },
+    {
+      "from": 13,
+      "to": 29,
+      "direction": 16
+    },
+    {
+      "from": 16,
+      "to": 21,
+      "direction": 5
+    },
+    {
+      "from": 16,
+      "to": 24,
+      "direction": 8
+    },
+    {
+      "from": 16,
+      "to": 0,
+      "direction": 16
+    },
+    {
+      "from": 21,
+      "to": 16,
+      "direction": 5
+    },
+    {
+      "from": 21,
+      "to": 29,
+      "direction": 8
+    },
+    {
+      "from": 21,
+      "to": 5,
+      "direction": 16
+    },
+    {
+      "from": 24,
+      "to": 29,
+      "direction": 5
+    },
+    {
+      "from": 24,
+      "to": 16,
+      "direction": 8
+    },
+    {
+      "from": 24,
+      "to": 8,
+      "direction": 16
+    },
+    {
+      "from": 29,
+      "to": 24,
+      "direction": 5
+    },
+    {
+      "from": 29,
+      "to": 21,
+      "direction": 8
+    },
+    {
+      "from": 29,
+      "to": 13,
+      "direction": 16
+    }
+  ],
+  "two_order_histories": [
+    {
+      "from": 0,
+      "directions": [
+        5,
+        8
+      ],
+      "intermediate": [
+        5,
+        8
+      ],
+      "common_endpoint": 13
+    },
+    {
+      "from": 0,
+      "directions": [
+        5,
+        16
+      ],
+      "intermediate": [
+        5,
+        16
+      ],
+      "common_endpoint": 21
+    },
+    {
+      "from": 0,
+      "directions": [
+        8,
+        16
+      ],
+      "intermediate": [
+        8,
+        16
+      ],
+      "common_endpoint": 24
+    },
+    {
+      "from": 5,
+      "directions": [
+        5,
+        8
+      ],
+      "intermediate": [
+        0,
+        13
+      ],
+      "common_endpoint": 8
+    },
+    {
+      "from": 5,
+      "directions": [
+        5,
+        16
+      ],
+      "intermediate": [
+        0,
+        21
+      ],
+      "common_endpoint": 16
+    },
+    {
+      "from": 5,
+      "directions": [
+        8,
+        16
+      ],
+      "intermediate": [
+        13,
+        21
+      ],
+      "common_endpoint": 29
+    },
+    {
+      "from": 8,
+      "directions": [
+        5,
+        8
+      ],
+      "intermediate": [
+        13,
+        0
+      ],
+      "common_endpoint": 5
+    },
+    {
+      "from": 8,
+      "directions": [
+        5,
+        16
+      ],
+      "intermediate": [
+        13,
+        24
+      ],
+      "common_endpoint": 29
+    },
+    {
+      "from": 8,
+      "directions": [
+        8,
+        16
+      ],
+      "intermediate": [
+        0,
+        24
+      ],
+      "common_endpoint": 16
+    },
+    {
+      "from": 13,
+      "directions": [
+        5,
+        8
+      ],
+      "intermediate": [
+        8,
+        5
+      ],
+      "common_endpoint": 0
+    },
+    {
+      "from": 13,
+      "directions": [
+        5,
+        16
+      ],
+      "intermediate": [
+        8,
+        29
+      ],
+      "common_endpoint": 24
+    },
+    {
+      "from": 13,
+      "directions": [
+        8,
+        16
+      ],
+      "intermediate": [
+        5,
+        29
+      ],
+      "common_endpoint": 21
+    },
+    {
+      "from": 16,
+      "directions": [
+        5,
+        8
+      ],
+      "intermediate": [
+        21,
+        24
+      ],
+      "common_endpoint": 29
+    },
+    {
+      "from": 16,
+      "directions": [
+        5,
+        16
+      ],
+      "intermediate": [
+        21,
+        0
+      ],
+      "common_endpoint": 5
+    },
+    {
+      "from": 16,
+      "directions": [
+        8,
+        16
+      ],
+      "intermediate": [
+        24,
+        0
+      ],
+      "common_endpoint": 8
+    },
+    {
+      "from": 21,
+      "directions": [
+        5,
+        8
+      ],
+      "intermediate": [
+        16,
+        29
+      ],
+      "common_endpoint": 24
+    },
+    {
+      "from": 21,
+      "directions": [
+        5,
+        16
+      ],
+      "intermediate": [
+        16,
+        5
+      ],
+      "common_endpoint": 0
+    },
+    {
+      "from": 21,
+      "directions": [
+        8,
+        16
+      ],
+      "intermediate": [
+        29,
+        5
+      ],
+      "common_endpoint": 13
+    },
+    {
+      "from": 24,
+      "directions": [
+        5,
+        8
+      ],
+      "intermediate": [
+        29,
+        16
+      ],
+      "common_endpoint": 21
+    },
+    {
+      "from": 24,
+      "directions": [
+        5,
+        16
+      ],
+      "intermediate": [
+        29,
+        8
+      ],
+      "common_endpoint": 13
+    },
+    {
+      "from": 24,
+      "directions": [
+        8,
+        16
+      ],
+      "intermediate": [
+        16,
+        8
+      ],
+      "common_endpoint": 0
+    },
+    {
+      "from": 29,
+      "directions": [
+        5,
+        8
+      ],
+      "intermediate": [
+        24,
+        21
+      ],
+      "common_endpoint": 16
+    },
+    {
+      "from": 29,
+      "directions": [
+        5,
+        16
+      ],
+      "intermediate": [
+        24,
+        13
+      ],
+      "common_endpoint": 8
+    },
+    {
+      "from": 29,
+      "directions": [
+        8,
+        16
+      ],
+      "intermediate": [
+        21,
+        13
+      ],
+      "common_endpoint": 5
+    }
+  ],
+  "nonzero_intermediate_purity_differences": "follows from the reproduced exact all-eight separation certificate",
+  "scope": "fixed finite source and fixed ideal probability packet; not human choice or experience"
+}

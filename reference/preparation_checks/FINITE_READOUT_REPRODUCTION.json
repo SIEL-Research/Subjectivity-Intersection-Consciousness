@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "source_state_construction": "retained beta states; full mode rebuilds these from fixed finite source",
+  "records": [
+    {
+      "mask": 0,
+      "rank": 3,
+      "Y_and_J_exact_match": true
+    },
+    {
+      "mask": 5,
+      "rank": 3,
+      "Y_and_J_exact_match": true
+    },
+    {
+      "mask": 8,
+      "rank": 3,
+      "Y_and_J_exact_match": true
+    },
+    {
+      "mask": 13,
+      "rank": 3,
+      "Y_and_J_exact_match": true
+    },
+    {
+      "mask": 16,
+      "rank": 3,
+      "Y_and_J_exact_match": true
+    },
+    {
+      "mask": 21,
+      "rank": 3,
+      "Y_and_J_exact_match": true
+    },
+    {
+      "mask": 24,
+      "rank": 3,
+      "Y_and_J_exact_match": true
+    },
+    {
+      "mask": 29,
+      "rank": 3,
+      "Y_and_J_exact_match": true
+    }
+  ],
+  "scope": "exact conditional finite-model readout, not a biological experiment"
+}

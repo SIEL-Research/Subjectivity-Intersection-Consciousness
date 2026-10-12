@@ -1,0 +1,99 @@
+{
+  "schema": "siel-endpoint-provenance-record-v1",
+  "record_id": "Q-012-X12-E2",
+  "experiment_id": "Q-012-X12",
+  "claim_id": "P1_BRAID_COMPLEMENTARY_EEG_GEOMETRY",
+  "lifecycle_level": "E2",
+  "governing_subsystem": "JSM_INDEPENDENT_RESULT_AUDIT",
+  "source_revision": "plan-743fad46d613817e_endpoint-2967175e69b80275",
+  "preregistration_revision": null,
+  "result_revision": "bbaa61dd9747915f0fd785344d9fab241e5ebd45",
+  "producer_artifact": {
+    "path": "projects/active/q012_braid_probability_1plus3/local_explorations/Q-012-X12/endpoint.py",
+    "sha256": "2967175e69b8027531103a28b803ca7ba8e2d0a8d3700cdc5fcc2d60e383b0a1",
+    "context_id": "q012-x12-producer-context-2026-09-29",
+    "reviewer_id": "codex-producer"
+  },
+  "semantic_audit_artifact": {
+    "path": "projects/active/q012_braid_probability_1plus3/local_explorations/Q-012-X12/independent_e2/INDEPENDENT_SUMMARY.json",
+    "sha256": "88647a783e01597e83db80e413bd1a508b12d4ad0819e673b2ebcf438c42a668",
+    "context_id": "q012-x12-independent-e2-context-2026-09-29",
+    "reviewer_id": "codex-independent-e2-q012-x12"
+  },
+  "independence": {
+    "different_context": true,
+    "different_reviewer": true,
+    "statement": "A separately delegated reviewer reconstructed the result at the exact committed revision using a fresh standalone implementation that imports neither the producer endpoint nor runner. The reconstruction used Python CSV parsing, the algebraic off-diagonal carrier identity, and a Moore-Penrose projection code path."
+  },
+  "gates": [
+    {
+      "gate_id": "Q012-X12-COMPLEMENTARY-CONDITIONAL-EEG-DISTANCE-GEOMETRY-E2",
+      "scientific_alternative": "At the exact Q-012-X12 result revision, the fixed eight-kernel Braid carrier retains P1-local task geometry in both the total-Laplacian and three-component topology receiver views after conditioning each association on quantum radius and the other EEG view, rather than the endpoint being a copied, constant, one-view-only, or duplicate-view construction.",
+      "code_locator": "independent_q012_x12_e2.py:carrier,centered_distance,residual,complement,ranked_rows,common_nulls,witnesses",
+      "source_variables": [
+        "ordered p00 p01 p10 p11 probabilities",
+        "eight fixed X1003 correlation kernels",
+        "algebraically reconstructed unstandardized eight-component carrier",
+        "quantum radius sqrt(I2)",
+        "four-electrode total Laplacian lambda2_4ch plus lambda3_4ch plus lambda4_4ch",
+        "within-participant column-z topology vector h1_total_persistence, aspl, lambda2"
+      ],
+      "intervention_constructor": "Independently double-center Euclidean distance matrices, residualize source and topology against radius plus Laplacian and source and Laplacian against radius plus topology, then retain the signed Frobenius correlations and their minimum; apply the frozen common source-radius task permutations.",
+      "comparator_constructor": "Reconstruct all producer rows and separately execute a synthetic two-view positive, independent source, exact one-view-only source, duplicate receiver view, radius-only source, constant source, common source-radius reversal, and exact replay.",
+      "expression": "s_T_given_L=cos(P_perp(span(D_r,D_L))D_C,P_perp(span(D_r,D_L))D_T); s_L_given_T=cos(P_perp(span(D_r,D_T))D_C,P_perp(span(D_r,D_T))D_L); J=min(s_T_given_L,s_L_given_T)",
+      "reused_intermediates": [
+        "Q-012-X10 exact-revision natural-carrier Laplacian baseline",
+        "Q-012-X11 exact-revision natural-carrier topology baseline",
+        "Q-012-X1003 eight-kernel records",
+        "Q-012-X6 revision-002 task geometry"
+      ],
+      "symbolic_relation": "Conditioning each branch on the other receiver makes exact receiver duplication collapse the relevant receiver residuals, and an exact Laplacian-only source collapses the topology branch. Hence X10 and X11 predecessor positivity does not definitionally force the X12 joint result.",
+      "degeneracy_class": "NONE_DETECTED",
+      "witnesses": {
+        "positive": {
+          "path": "projects/active/q012_braid_probability_1plus3/local_explorations/Q-012-X12/independent_e2/POSITIVE_WITNESS.json",
+          "sha256": "c114f8b876c3190773d5cbdadbb6e7ed6a9f6576d2384f997f58e844f60d86e3",
+          "status": "PASS",
+          "target_changed": true,
+          "endpoint_changed": true,
+          "raw_output_path": "projects/active/q012_braid_probability_1plus3/local_explorations/Q-012-X12/independent_e2/INDEPENDENT_WITNESSES.json"
+        },
+        "negative": {
+          "path": "projects/active/q012_braid_probability_1plus3/local_explorations/Q-012-X12/independent_e2/NEGATIVE_WITNESS.json",
+          "sha256": "137395be29caaebb8e79512eed543a2e6fc6ba2f85bd47f228105eb424b9f6ff",
+          "status": "PASS",
+          "target_changed": true,
+          "endpoint_changed": true,
+          "raw_output_path": "projects/active/q012_braid_probability_1plus3/local_explorations/Q-012-X12/independent_e2/INDEPENDENT_WITNESSES.json"
+        },
+        "comparator": {
+          "path": "projects/active/q012_braid_probability_1plus3/local_explorations/Q-012-X12/independent_e2/COMPARATOR_WITNESS.json",
+          "sha256": "619baadeed233af4a487cb3f1b510bd54402ed7537c57df489cf6d6ab1bfb3f5",
+          "status": "PASS",
+          "target_changed": true,
+          "endpoint_changed": true,
+          "raw_output_path": "projects/active/q012_braid_probability_1plus3/local_explorations/Q-012-X12/independent_e2/INDEPENDENT_WITNESSES.json"
+        }
+      },
+      "evidence_paths": [
+        "projects/active/q012_braid_probability_1plus3/local_explorations/Q-012-X12/independent_e2/INDEPENDENT_SUMMARY.json",
+        "projects/active/q012_braid_probability_1plus3/local_explorations/Q-012-X12/independent_e2/EXACT_PATH_BASELINE_GATE.json",
+        "projects/active/q012_braid_probability_1plus3/local_explorations/Q-012-X12/independent_e2/INPUT_MANIFEST.json",
+        "projects/active/q012_braid_probability_1plus3/local_explorations/Q-012-X12/independent_e2/regenerated_matched_scores.csv",
+        "projects/active/q012_braid_probability_1plus3/local_explorations/Q-012-X12/independent_e2/regenerated_p1_source_scores.csv",
+        "projects/active/q012_braid_probability_1plus3/local_explorations/Q-012-X12/independent_e2/regenerated_task_nulls.csv"
+      ],
+      "permitted_interpretation": "Internal independent E2 supports the exact exploratory P1-local claim that two fixed EEG geometries each retain same-sign, task-order-specific association with the natural eight-kernel carrier after radius and the other EEG view are removed in centered-distance space; P1 is rank 1 of 26 in both frozen rank tests.",
+      "prohibited_interpretations": [
+        "The result is not independent-data replication and is not a fresh confirmatory experiment.",
+        "Conditional distance residuals do not establish statistical independence, causal neural channels, or irreducible common generation.",
+        "The result does not establish archive-wide correspondence or overturn prior negative global topology routes.",
+        "The endpoint is not direct measurement of Braid coherence and does not prove nonlocality, gravity, consciousness, subjectivity, or a unique mechanism."
+      ],
+      "status": "PASS"
+    }
+  ],
+  "overall_status": "PASS",
+  "created_at": "2026-09-29T00:32:12+09:00",
+  "historical": false
+}

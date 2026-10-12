@@ -1,0 +1,164 @@
+{
+  "best_false_matched": {
+    "joint_min": 0.10620335143897679,
+    "label": "P17",
+    "laplacian_receiver_norm": 25.46585295401658,
+    "laplacian_source_norm": 0.21184635315933803,
+    "laplacian_unique": 0.181207424843647,
+    "topology_receiver_norm": 22.5051996034858,
+    "topology_source_norm": 0.2095241938295739,
+    "topology_unique": 0.10620335143897679
+  },
+  "best_false_source": {
+    "joint_min": 0.050349163198757096,
+    "label": "P18",
+    "laplacian_receiver_norm": 35.92417343879541,
+    "laplacian_source_norm": 0.2835526098376829,
+    "laplacian_unique": 0.06366055400149308,
+    "topology_receiver_norm": 19.12910633340819,
+    "topology_source_norm": 0.2833368172147004,
+    "topology_unique": 0.050349163198757096
+  },
+  "chronology": {
+    "endpoint_sha256_at_freeze": "2967175e69b8027531103a28b803ca7ba8e2d0a8d3700cdc5fcc2d60e383b0a1",
+    "freeze_commit": "77d592523a789bb520e9cb32501cefa6531fe209",
+    "freeze_commit_time": "2026-09-29T00:08:53+09:00",
+    "freeze_precedes_result": true,
+    "plan_sha256_at_freeze": "743fad46d613817e8eb42e5375b738e16d0bcd49c34be28c47f3ad01e119ec69",
+    "result_commit": "bbaa61dd9747915f0fd785344d9fab241e5ebd45",
+    "result_commit_time": "2026-09-29T00:10:13+09:00"
+  },
+  "claim_ceiling": "P1-local conditional cross-readout geometry in one reused archive. It does not establish independent-data replication, statistical independence of EEG views, archive-wide generality, a unique mechanism, direct Braid-coherence measurement, causation, nonlocality, gravity, consciousness, subjectivity, or irreducible common generation.",
+  "decision": "P1_BRAID_COMPLEMENTARY_EEG_GEOMETRY",
+  "evidence_status": "Exploratory result",
+  "exact_path_baseline_gate": {
+    "baseline_intermediate": "PASS",
+    "baseline_primary": "PASS",
+    "comparisons": {
+      "matched": {
+        "key_sets_equal": true,
+        "max_abs_error": {
+          "joint_min": 3.894454203567932e-16,
+          "laplacian_receiver_norm": 7.105427357601002e-15,
+          "laplacian_source_norm": 6.38378239159465e-16,
+          "laplacian_unique": 1.4224732503009818e-15,
+          "topology_receiver_norm": 7.105427357601002e-15,
+          "topology_source_norm": 6.38378239159465e-16,
+          "topology_unique": 1.4432899320127035e-15
+        },
+        "order_equal": true,
+        "row_count": 26
+      },
+      "nulls": {
+        "key_sets_equal": true,
+        "max_abs_error": {
+          "joint_min": 4.850286838831153e-15,
+          "laplacian_receiver_norm": 2.1316282072803006e-14,
+          "laplacian_source_norm": 1.1102230246251565e-16,
+          "laplacian_unique": 4.052314039881821e-15,
+          "topology_receiver_norm": 1.4210854715202004e-14,
+          "topology_source_norm": 1.3877787807814457e-16,
+          "topology_unique": 4.850286838831153e-15
+        },
+        "order_equal": true,
+        "row_count": 2000
+      },
+      "source": {
+        "key_sets_equal": true,
+        "max_abs_error": {
+          "joint_min": 5.421010862427522e-16,
+          "laplacian_receiver_norm": 1.4210854715202004e-14,
+          "laplacian_source_norm": 6.38378239159465e-16,
+          "laplacian_unique": 5.186823193170653e-16,
+          "topology_receiver_norm": 1.0658141036401503e-14,
+          "topology_source_norm": 6.38378239159465e-16,
+          "topology_unique": 1.4432899320127035e-15
+        },
+        "order_equal": true,
+        "row_count": 26
+      }
+    },
+    "intervention_invariants": "PASS",
+    "path_manifest": "PASS",
+    "predecessor_reproduction": {
+      "x10": {
+        "expected_score": 0.3023114604912482,
+        "matched_rank": 1,
+        "p1_score": 0.3023114604912468,
+        "source_rank": 1
+      },
+      "x11": {
+        "expected_score": 0.33278333475436195,
+        "matched_rank": 1,
+        "p1_score": 0.33278333475436006,
+        "source_rank": 1
+      }
+    },
+    "science_outcome_authorized": true,
+    "source_identity": "PASS",
+    "split_manifest_status": "NOT_APPLICABLE_NO_MODEL_SPLIT"
+  },
+  "experiment_id": "Q-012-X12",
+  "max_abs_difference_from_producer": 2.1316282072803006e-14,
+  "p1": {
+    "joint_min": 0.13899063136511755,
+    "label": "P1",
+    "laplacian_receiver_norm": 35.79147955375766,
+    "laplacian_source_norm": 0.16841470338759937,
+    "laplacian_unique": 0.13899063136511755,
+    "matched_rank": 1,
+    "source_rank": 1,
+    "task_exceedances": {
+      "joint_min": 0,
+      "laplacian_unique": 40,
+      "topology_unique": 13
+    },
+    "task_p": {
+      "joint_min": 0.0004997501249375312,
+      "laplacian_unique": 0.02048975512243878,
+      "topology_unique": 0.0069965017491254375
+    },
+    "topology_receiver_norm": 18.691056594868815,
+    "topology_source_norm": 0.17023741305786605,
+    "topology_unique": 0.20051441840524198
+  },
+  "qualifiers": [
+    "retrospective",
+    "result-informed",
+    "reused archive",
+    "internal independent E2",
+    "not independent-data replication"
+  ],
+  "result_revision": "bbaa61dd9747915f0fd785344d9fab241e5ebd45",
+  "retained_rows": {
+    "matched": 26,
+    "null": 2000,
+    "source": 26
+  },
+  "semantic_capacity": {
+    "degeneracy_class": "NONE_DETECTED",
+    "independent_e2_checks": {
+      "constant_joint_zero": true,
+      "duplicate_view_joint_zero": true,
+      "exact_replay": true,
+      "negative_below_positive": true,
+      "one_view_joint_zero": true,
+      "positive_both_nonzero": true,
+      "radius_only_joint_zero": true,
+      "task_intervention_changes": true
+    },
+    "producer_e0_checks": {
+      "constant_joint_zero": true,
+      "duplicate_view_joint_zero": true,
+      "independent_negative_below_frozen_threshold": true,
+      "one_view_missing_component_below_frozen_threshold": true,
+      "positive_both_above_frozen_threshold": true,
+      "radius_only_joint_zero": true,
+      "receiver_rescaling_invariant": true,
+      "replay_exact": true,
+      "task_intervention_changes_joint": true
+    },
+    "status": "PASS"
+  },
+  "verdict": "PASS"
+}

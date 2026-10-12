@@ -1,0 +1,105 @@
+{
+  "claim_ceiling": "Same-archive result-informed exploratory comparison of pre/post-midpoint 14ch EEG topology and source-specific Braid contraction for eight evaluable participants; no causal control, physical mask, Body/perception, consciousness, population generality, or confirmation.",
+  "classification": "TEMPORAL_PHENOTYPE_NOT_JOINTLY_RESOLVED",
+  "decision": "NO-GO",
+  "evaluable_participants": [
+    "P1",
+    "P2",
+    "P10",
+    "P14",
+    "P17",
+    "P18",
+    "P21",
+    "P25"
+  ],
+  "evidence_class": "Exploratory result",
+  "p1": {
+    "delta": {
+      "gate_slope": 0.15698715206879066,
+      "general_margin": -4.6012715099217045,
+      "margin": -0.7431741885242039,
+      "nongate_slope": 0.2767576571253594,
+      "permutation_p": 0.6170765846830634,
+      "rank": 19,
+      "score": -0.15698715206879066
+    },
+    "post": {
+      "gate_slope": -1.2663582097562958,
+      "general_margin": -2.100864683931137,
+      "margin": 0.6041437875007594,
+      "nongate_slope": -0.399116433089975,
+      "permutation_p": 0.036192761447710456,
+      "rank": 1,
+      "score": 1.2663582097562958
+    },
+    "pre": {
+      "gate_slope": -1.0419676086660952,
+      "general_margin": -4.19977047991001,
+      "margin": -0.34922738856601643,
+      "nongate_slope": -0.5696859152692462,
+      "permutation_p": 0.04379124175164967,
+      "rank": 2,
+      "score": 1.0419676086660952
+    }
+  },
+  "p1_checks": {
+    "pre_braid_margin_gt_general": true,
+    "pre_margin_positive": false,
+    "pre_permutation_p_le_0_05": true,
+    "pre_score_gt_post_score": false,
+    "pre_score_positive": true,
+    "pre_source_rank_1": false
+  },
+  "p1_pre_lock_pass": false,
+  "p21": {
+    "delta": {
+      "gate_slope": 0.6963218062257189,
+      "general_margin": -8.981967750622568,
+      "margin": -5.220723906481194,
+      "nongate_slope": -0.08683310056265621,
+      "permutation_p": 0.6284743051389722,
+      "rank": 17,
+      "score": -0.6963218062257189
+    },
+    "post": {
+      "gate_slope": -1.0109563511965498,
+      "general_margin": -10.120175513726377,
+      "margin": -1.4648610249609466,
+      "nongate_slope": -0.049987545521605434,
+      "permutation_p": 0.22135572885422916,
+      "rank": 9,
+      "score": 1.0109563511965498
+    },
+    "pre": {
+      "gate_slope": -1.2479285563419242,
+      "general_margin": -8.344377837584515,
+      "margin": -1.2797508582343553,
+      "nongate_slope": 0.053325255733697056,
+      "permutation_p": 0.23355328934213157,
+      "rank": 6,
+      "score": 1.2479285563419242
+    }
+  },
+  "p21_checks": {
+    "delta_braid_margin_gt_general": true,
+    "delta_margin_positive": false,
+    "delta_permutation_p_le_0_05": false,
+    "delta_score_gt_pre_score": false,
+    "delta_score_positive": false,
+    "delta_source_rank_1": false
+  },
+  "p21_post_response_pass": false,
+  "parent": "Q-012-X27",
+  "result_informed": true,
+  "sampling_rates_hz": {
+    "P1": 256.1407175628518,
+    "P10": 256.1407175628518,
+    "P14": 256.1407175628518,
+    "P17": 256.1407175628518,
+    "P18": 256.1407175628518,
+    "P2": 256.1407175628518,
+    "P21": 256.1407175628518,
+    "P25": 256.1407175628518
+  },
+  "scout_id": "DPA-SCOUT-015"
+}
